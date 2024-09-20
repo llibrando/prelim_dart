@@ -62,9 +62,4 @@ class GradeCalculatorApp {
     double terminalGrade = gradeNotifier.getTerminalGrade();
     print("Your Terminal Grade is: ${terminalGrade.toStringAsFixed(2)}");
   }
-
-  // Helper function to check if the input is numeric
-  bool _isNumeric(String str) {
-    return double.tryParse(str) != null;
-  }
 }
